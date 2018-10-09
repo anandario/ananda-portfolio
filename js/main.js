@@ -1,7 +1,7 @@
 // Open the drawer when the menu icon is clicked.
-var hamburger = document.querySelector('.header_hamburger');
+var hamburger = document.querySelector('.header-hamburger');
 var main = document.querySelector('main');
-var drawer = document.querySelector('.header_navbar');
+var drawer = document.querySelector('.header-navbar');
 
 hamburger.addEventListener('click', function (e) {
     drawer.classList.toggle('open');
