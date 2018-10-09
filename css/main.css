@@ -18,13 +18,13 @@ body {
 h1,
 h2 {
     color: #fbb7f4;
-    font-weight: 200;
 }
 
 h2 {
     text-align: center;
     padding-top: 1.5em;
     padding-bottom: 1em;
+    font-weight: 200;
 }
 
 a {
@@ -63,10 +63,9 @@ ul {
     border-bottom: 1px solid #eee;
     background-color: #fafafa;
     width: 100%;
-    min-width: 400px;
     position: fixed;
     z-index: 100;
-    min-height: 56px;
+    min-height: 48px;
     overflow: hidden;
     box-shadow: 0 2px 2px #eee;
     -webkit-box-shadow: 0 1px 1px #eee;
@@ -75,28 +74,30 @@ ul {
 
 .header-inner {
     display: inline-block;
-    padding: 0 2em;
+    padding-left: 0.5em;
     margin: 1em;
     overflow: hidden;
     min-height: 30px;
 }
 
 .header-logo {
-    width: 48px;
+    width: 35px;
     vertical-align: middle;
 }
 
 .header-name {
     display: inline-block;
-    padding-left: 0.5em;
+    padding-left: 0.3em;
     vertical-align: middle;
+    font-size: 1.7em;
+    font-weight: 400;
 }
 
 .header-navbar {
     display: none;
     float: right;
-    padding: 0.5em;
-    margin: 1.5em 1.5em 1.5em 0;
+    padding:  0.5em;
+    margin: 1.3em 2em 1.3em 0;
     background-color: #fbb7f4;
     border-radius: 25px;
 }
@@ -122,7 +123,7 @@ ul {
     position: absolute;
     right: 0;
     padding: 0.5em;
-    margin: 1em;
+    margin: 0.5em;
 }
 
 /* End Header */
@@ -221,8 +222,8 @@ main {
 }
 
 .contact-image img {
-    width: 300px;
-    height: 230px;
+    width: 280px;
+    height: 200px;
     border-radius: 4px;
 }
 
@@ -262,8 +263,19 @@ main {
 /* TABLET */
 
 @media screen and (min-width:700px) {
+    .main {
+        width:700px;
+    }
     .header-navbar {
         display: inline;
+    }
+
+    .header-logo {
+        width: 48px;
+    }
+
+    .header-name {
+        font-size: 2.3em;
     }
 
     .header-hamburger {
