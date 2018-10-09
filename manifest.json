@@ -1,0 +1,30 @@
+{
+    "short_name": "Ananda",
+    "name": "Ananda Río",
+    "icons": [
+      {
+        "src": "images/launcher-icon-1x.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "images/launcher-icon-2x.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "images/launcher-icon-4x.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "images/launcher-icon-web.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "index.html?launcher=true", 
+    "display": "standalone",
+    "theme_color": "#fbb7f4",
+    "background_color": "#fbb7f4"
+  }
