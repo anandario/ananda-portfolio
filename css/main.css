@@ -264,15 +264,17 @@ main {
 
 @media screen and (min-width:700px) {
     .main {
-        width:700px;
+        width: 700px;
     }
+
     .header-navbar {
         display: inline-block;
         border-radius: 25px;
-        padding:  0.4em;
+        padding: 0.4em;
         margin: 1em 2em 1em 0;
         float: right;
     }
+
     .header-navbar li {
         float: left;
     }
