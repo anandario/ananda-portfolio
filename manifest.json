@@ -1,6 +1,6 @@
 {
-  "short-name": "Ananda",
-  "name": "Ananda Río",
+  "short_name": "Ananda",
+  "name": "Ananda Rio",
   "icons": [{
       "src": "images/launcher-icon-1x.png",
       "type": "image/png",
@@ -22,8 +22,8 @@
       "sizes": "200x200"
     }
   ],
-  "start-url": "index.html?launcher=true",
+  "start_url": "index.html?launcher=true",
   "display": "standalone",
-  "theme-color": "#fbb7f4",
-  "background-color": "#fbb7f4"
+  "theme_color": "#fbb7f4",
+  "background_color": "#fbb7f4"
 }
