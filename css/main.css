@@ -12,7 +12,7 @@ body {
     font-family: cousine, monospace;
     width: 100%;
     line-height: 1.5em;
-    min-width: 300px;
+    min-width: 350px;
 }
 
 h1,
@@ -65,7 +65,7 @@ ul {
     width: 100%;
     position: fixed;
     z-index: 100;
-    min-height: 48px;
+    min-height: 52px;
     overflow: hidden;
     box-shadow: 0 2px 2px #eee;
     -webkit-box-shadow: 0 1px 1px #eee;
@@ -222,8 +222,8 @@ main {
 }
 
 .contact-image img {
-    width: 280px;
-    height: 200px;
+    width: 300px;
+    height: 230px;
     border-radius: 4px;
 }
 
