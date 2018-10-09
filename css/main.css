@@ -1,4 +1,4 @@
-/*General styles*/
+/* General styles */
 
 * {
     margin: 0;
@@ -56,7 +56,7 @@ ul {
     list-style: none;
 }
 
-/*Header*/
+/* Header */
 
 
 .header {
@@ -103,8 +103,6 @@ ul {
 
 .header-navbar.open {
     display: inline;
-    /* -webkit-transform: translate(0, 0);
-    transform: translate(0, 0); */
 }
 
 .header-navbar li {
@@ -127,16 +125,16 @@ ul {
     margin: 1em;
 }
 
-/*End Header*/
+/* End Header */
 
-/*Main*/
+/* Main */
 
 main {
     width: 80%;
     margin: 0 auto;
 }
 
-/*About section*/
+/* About section */
 
 #about {
     display: flex;
@@ -168,7 +166,7 @@ main {
 
 }
 
-/*End about section*/
+/* End about section */
 
 /* Work section */
 
@@ -201,9 +199,9 @@ main {
     font-size: 0.6em;
 }
 
-/*End work section*/
+/* End work section */
 
-/*Contact section*/
+/* Contact section */
 
 #contact {
     display: flex;
@@ -220,8 +218,6 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-
-
 }
 
 .contact-image img {
@@ -261,7 +257,7 @@ main {
 }
 
 
-/*End contact section*/
+/* End contact section */
 
 /* TABLET */
 
