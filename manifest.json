@@ -20,7 +20,7 @@
       {
         "src": "images/launcher-icon-web.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "200x200"
       }
     ],
     "start_url": "index.html?launcher=true", 
