@@ -126,7 +126,7 @@ ul {
 /* Main */
 
 main {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -169,12 +169,12 @@ main {
 .work-portfolio {
     display: flex;
     flex-wrap: wrap;
-    padding: 2em 0;
+    padding: 2em 0.5em;
 }
 
 .work-item {
     width: 100%;
-    padding: 1.5em 0;
+    padding: 1.5em 1em;
 }
 
 .work-item img {
@@ -217,8 +217,8 @@ main {
 }
 
 .contact-image img {
-    width: 300px;
-    height: 230px;
+    width: 320px;
+    height: 250px;
     border-radius: 4px;
 }
 
@@ -264,9 +264,6 @@ main {
 /* TABLET */
 
 @media screen and (min-width:700px) {
-    .main {
-        width: 700px;
-    }
 
     .header-navbar {
         display: inline-block;
@@ -333,7 +330,7 @@ main {
 
     .work-item {
         width: 50%;
-        padding: 2em;
+        padding: 1.5em;
     }
 
     .work-item img {
