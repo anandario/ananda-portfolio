@@ -1,7 +1,7 @@
 
 # My portfolio
 
-:black_joker: My personal website
+:person_frowning: My personal website
 
 ## Install
 
