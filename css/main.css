@@ -13,6 +13,7 @@ body {
     width: 100%;
     line-height: 1.5em;
     min-width: 350px;
+    font-size: 1.2em;
 }
 
 h1,
@@ -44,7 +45,7 @@ p {
 
 figcaption {
     color: #fbb7f4;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 span {
@@ -89,7 +90,7 @@ ul {
     padding-left: 0.3em;
     vertical-align: middle;
     font-size: 1.7em;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .header-navbar {
@@ -105,7 +106,7 @@ ul {
 
 .header-navbar li {
     display: inline-block;
-    padding: 0.3em 1em;
+    padding: 0.1em 0.7em;
 }
 
 .nav-item {
@@ -113,7 +114,7 @@ ul {
 }
 
 .header-hamburger {
-    width: 3em;
+    width: 2.5em;
     fill: #fbb7f4;
     position: absolute;
     right: 0;
@@ -123,16 +124,11 @@ ul {
 
 /* End Header */
 
-/* Main */
-
-main {
-    width: 90%;
-    margin: 0 auto;
-}
 
 /* About section */
 
 #about {
+    padding: 0 2em 3em 2em;
     display: flex;
     flex-wrap: wrap;
 }
@@ -147,6 +143,7 @@ main {
 .about-image img {
     width: 180px;
     height: 180px;
+    border-radius: 2%;
 }
 
 .about-info {
@@ -165,11 +162,15 @@ main {
 /* End about section */
 
 /* Work section */
+#work {
+    background-color: rgb(250, 250, 250);
+    padding:3em 5em;
+}
 
 .work-portfolio {
     display: flex;
     flex-wrap: wrap;
-    padding: 2em 0.5em;
+    padding: 5em 0.5em 3em 0.5em;
 }
 
 .work-item {
@@ -180,6 +181,9 @@ main {
 .work-item img {
     width: 100%;
     border-radius: 4px;
+}
+.work-abilities ul {
+    padding: 2em 0 1em 0;
 }
 
 .work-abilities li {
@@ -202,8 +206,9 @@ main {
 #contact {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 2em 0;
+
+    padding: 0 2em;
+    padding: 5em 0;
 }
 
 .contact-info {
@@ -266,9 +271,9 @@ main {
 @media screen and (min-width:700px) {
 
     .header-navbar {
-        display: inline-block;
+        display: inline;
         border-radius: 25px;
-        padding: 0.4em;
+        padding: 0.2em;
         margin: 1em 2em 1em 0;
         float: right;
     }
@@ -282,7 +287,7 @@ main {
     }
 
     .header-name {
-        font-size: 2.3em;
+        font-size: 1.6em;
     }
 
     .header-hamburger {
@@ -301,42 +306,47 @@ main {
     .about-image {
         width: 50%;
         padding-top: 2em;
-        padding-right: 10em;
+        padding-right: 8em;
     }
 
     .about-image img {
         width: 240px;
         height: 240px;
+        margin-left:5em;
+    }
+
+    .work-item {
+        width: 50%;
+    }
+
+
+    .work-item img {
+        width: 230px;
+        height: 180px;
     }
 
     .contact-info {
         width: 50%;
         padding-right: 2em;
+        padding-left: 1em;
     }
 
     .contact-image {
         width: 50%;
         display: flex;
         justify-content: center;
-        padding-left: 5em;
     }
 
     .contact-image img {
         width: 360px;
         height: 270px;
         display: flex;
-        justify-content: center;
+        justify-content:center;
+        margin-right: 2.5em;
     }
 
-    .work-item {
-        width: 50%;
-        padding: 1.5em;
-    }
 
-    .work-item img {
-        width: 250px;
-        height: 170px;
-    }
+
 
     .fab {
         font-size: 1em;
@@ -346,6 +356,25 @@ main {
 /* DESKTOP */
 
 @media screen and (min-width:1000px) {
+    .header-name {
+        font-size: 1.6em;
+            }
+
+
+    .work-item {
+        width: 50%;
+        padding: 1.5em;
+    }
+
+
+    .work-item img {
+        width: 290px;
+        height: 180px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
     .work-item {
         width: 33%;
     }
