@@ -176,15 +176,17 @@ ul {
 .work-item {
     width: 100%;
     padding: 1.5em 1em;
+    text-align: center;
 }
 
 .work-item img {
     width: 100%;
+    border: 1px solid lightgray;
     border-radius: 4px;
 }
 
 .work-abilities ul {
-    padding: 2em 0 1em 0;
+    padding: 2em 0 1em 2em;
 }
 
 .work-abilities li {
@@ -320,10 +322,9 @@ ul {
         width: 50%;
     }
 
-
     .work-item img {
         width: 230px;
-        height: 180px;
+        height: 142px;
     }
 
     .contact-info {
@@ -345,9 +346,6 @@ ul {
         justify-content: center;
         margin-right: 2.5em;
     }
-
-
-
 
     .fab {
         font-size: 1em;
